@@ -1,0 +1,356 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    background-color: black;
+}
+
+/* .main {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+} */
+
+nav {
+    color: rgb(229, 9, 20);
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 80vw;
+    margin: auto;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 23px;
+}
+#select{
+    padding: 3px 21px 5px 27px;
+    background-color: rgba(0, 0, 0, 0.342);
+    color: white;
+}
+div .lang{
+    position: relative;
+    height: 20px;
+    left: 45px;
+    top: 12px;
+    filter: invert(1);
+}
+button , select{
+    border-radius: 26px;
+    padding: 11px;
+    color: white;
+    font-weight: bold;
+}
+.logo{
+    font-size: 43px;
+}
+.langsign{
+    display: flex;
+    gap: 18px;
+}
+div select option{
+    background-color: #fff;
+    color: black;
+}
+button{
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+}
+main .video video{
+    width: 96vw;
+    margin: 16px;
+    height: 50vh;
+    border-radius: 20px;
+    box-shadow: rgba(108, 107, 107, 0.582) 0px 0px 78px 4px;
+    position: absolute;
+    top: 33px;
+    border: 1px solid white;
+}
+.image{
+    position: relative;
+}
+.image img{
+    width: 100%;
+    height: 85vh;
+    opacity: 0.2;
+    box-shadow: 0px 0px 90px 6px white;
+    filter: blur(14px);
+
+}
+div .plan .merge{
+    background: none;
+    font-weight: 800;
+    color: white;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -385px;
+}
+.plan .small{
+    font-size: 20px;
+}
+.email{
+    color: white;
+    justify-content: center;
+    display: flex;
+    background: none;
+    top: -312px;
+    font-size: 18px;
+    position: relative;
+}
+.email .no{
+    background: none;
+}
+.Eform{
+        justify-content: center;
+        display: flex;
+        background: none;
+        gap: 24px;
+        bottom: 287px;
+        position: relative;
+        
+}
+.Eform input{
+    padding: 0px 315px 0px 13px;
+    border-radius: 50px;
+    color: #2221217d;
+}
+.Eform button{
+    padding: 17px 40px;
+    border-radius: 50px;
+    background-color: red;
+    color: white;
+}
+.movies{
+    display: flex;
+    margin: 30px;
+    overflow: hidden;
+    position: relative;
+    top: -20vh;
+    width: 80%;
+    margin: auto;
+    background: none;
+}
+.movies .box{
+    width: 184px;
+    height: 257.6px;
+    margin: 10px;
+    border-radius: 23px;
+    /* border: 2px solid rgba(255, 255, 255, 0.144); */
+    transform: scale(1);
+    transition: all 0.2s ease-in-out;
+}
+.movies .box:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px 3px rgba(145, 144, 144, 0.408);
+}
+.trend{
+    color: white;
+    margin: 0px 0px 0px 16px;
+    font-size: large;
+    font-weight: 700;
+    text-shadow: 0px 0px 31px white;
+    
+}
+.movies .movie1 img{
+    width: 184px;
+    height: 257.6px;
+    object-fit:cover;
+    border-radius: 23px;
+}
+.movies .movie2 img{
+    width: 184px;
+    height: 257.6px;
+    object-fit:cover;
+    border-radius: 23px;
+}
+.movies .movie3 img{
+    width: 184px;
+    height: 257.6px;
+    object-fit:cover;
+    border-radius: 23px;
+}
+.movies .movie4 img{
+    width: 184px;
+    height: 257.6px;
+    object-fit:cover;
+    border-radius: 23px;
+}
+.movies .movie5 img{
+    width: 184px;
+    height: 257.6px;
+    object-fit:cover;
+    border-radius: 23px;
+}
+.movies .movie6 img{
+    width: 184px;
+    height: 257.6px;
+    object-fit:cover;
+    border-radius: 23px;
+}
+.reasons{
+    color: white;
+    text-shadow: 0px 0px 31px white;
+    font-size: 30px;
+    font-weight: 700;
+    position: relative;
+    left: 10%;
+    top: -99px;
+}
+.reasin{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.reasin .boxes{
+    width: 293.6px;
+    height: 110px;
+    bottom: 103px;
+    border-radius: 16px;
+    position: relative;
+    margin: 7px;
+    background-color: #80808045;
+    color: white;
+    display: flex;
+}
+.reasin .boxes .textbox{
+    margin: 12px;
+    font-size: 18px;
+    font-weight: 700;
+    background: none;
+}
+.reasin .boxes img{
+    width: 48px;
+    height: 48px;
+    align-self: flex-end;
+    background: none;
+}
+.reasin .boxes1 img{
+    width: 48px;
+    height: 42px;
+    align-self: flex-end;
+    background: none;
+    filter: brightness(103%);
+}
+.reasin .boxes2 img{
+    width: 38px;
+    height: 35px;
+    align-self: flex-end;
+    background: none;
+    margin: 9px 0px 3px 58px;
+}
+.reasin .boxes3 img{
+    width: 48px;
+    height: 40px;
+    margin: 0px 2px -1px 0px;
+    align-self: flex-end;
+    background: none;
+}
+form .hover{
+    transition: background-color 0.2s ease-in-out;
+}
+form .hover:hover{
+    background-color: rgba(255, 0, 0, 0.729);
+}
+.frequent .freflex{
+    font-size: 34px;
+    font-weight: 700;
+    text-shadow: 0px 0px 24px white;
+    color: white;
+    position: absolute;
+    left: 10%;
+    top: 1634px;
+}
+.frequent .questions{
+    width: 1220px;
+    height: 70px;
+    font-size: 18px;
+    background-color:#80808045;
+    font-weight: 700;
+    position: relative;
+    border-radius: 14px;
+    left: 10%;
+    margin: 12px;
+    color: white;
+}
+.frequent .justalign .questions{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transform: scale(1);
+    transition: all 0.2s ease-in-out;
+}
+.frequent .justalign .questions:hover{
+    background-color: rgba(128, 128, 128, 0.418);
+    box-shadow: 0px 0px 22px 1px rgba(101, 101, 101, 0.408);
+    transform: scale(1.02);
+}
+.questions p{
+    background: none;
+    margin: 21px
+}
+.questions img{
+    background: none;
+    filter: invert(1);
+    width: 24px;
+    margin: 20px;
+}
+.last{
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin: 34px;
+    cursor: pointer;
+}
+.last .bye{
+    padding: 13px;
+    text-align: center;
+    width: 111px;
+    background-color: red;
+    border-radius: 41px;
+    font-weight: 700;
+}
+.last .membership{
+    font-weight: 500;
+}
+footer{
+    color: white;
+    position: relative;
+    left: 10%;
+
+}
+.foot a{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 20px 0px;
+    color: white;
+}
+.footer{
+    display: flex;
+        flex-direction: column;
+        gap: 20px;
+}
+.langsign1 img{
+    position: relative;
+    height: 24px;
+    left: 33px;
+    top: 6px;
+    filter: invert(1);
+}
+.langsign1 #select{
+    padding: 10px 24px 12px 33px;
+    background-color: rgba(0, 0, 0, 0.342);
+    color: white;
+}
+.goodbye{
+    color: white;
+    font-weight: 500;
+    margin: 29px 0px;
+}
